@@ -1,0 +1,20 @@
+Create a class C-2d vector and use it to create another class representing a 3-d vector.
+Create a class of pets from a class Animals and further create class Dog from Pets. Add a method bark to class Dog.
+Create a class Employee and add salary and increment properties to it.
+Write a method SalaryAfterIncrement method with a @property decorator with a setter which changes the value of increment based on the salary.
+
+Write a class complex to represent complex numbers, along with overloaded operators + and * which adds and multiplies them.
+Write a class vector representing a vector of n dimension. Overload the + and * operator which calculates the sum and the dot product of them.
+Write __str__() method to print the vector as follows:
+7i + 8j + 10k
+Assume vector of dimension 3 for this problem.
+
+Override the __len__() method on vector of problem 5 to display the dimension of the vector.
+Project 2: Snake, Water, Gun Game
+We are going to write a program that generates a random number and asks the user to guess it.
+
+If the player’s guess is higher than the actual number, the program displays “Lower number please”. Similarly, if the user’s guess is too low, the program prints “higher number please”.
+
+When the user guesses the correct number, the program displays the number of guesses the player used to arrive at the number.
+
+Hint: Use the random module
